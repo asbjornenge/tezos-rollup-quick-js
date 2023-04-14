@@ -2,8 +2,8 @@
 
 set -euo pipefail
 
-if [[ "$(basename $(pwd))" != "javy" ]]; then
-    echo "Run this inside in the root of the javy repo" 1>&2
+if [[ "$(basename $(pwd))" != "tezos-rollup-quick-js" ]]; then
+    echo "Run this inside in the root of the tezos-rollup-quick-js repo" 1>&2
     exit 1
 fi
 
